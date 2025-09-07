@@ -1,0 +1,1 @@
+**Task 1**: Declare an integer variable named `newAge`.
