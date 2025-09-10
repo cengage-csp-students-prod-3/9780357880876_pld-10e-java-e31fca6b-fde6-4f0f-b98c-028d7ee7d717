@@ -4,18 +4,32 @@ public class MyRectangleClassProgram
 {
    public static void main(String args[])
    {
-      // Create rectangle1 and rectangle2 objects here
+      //  Create two Rectangle objects using the default constructor
+        Rectangle rectangle1 = new Rectangle();
+        Rectangle rectangle2 = new Rectangle();
 
-      // Set the length of rectangle1 to 10.0 here
+        //  Set values for rectangle1
+        rectangle1.setLength(10.0); 
+        rectangle1.setWidth(5.0);   
 
-      // Set the width of rectangle1 to 5.0 here
+        // Set values for rectangle2
+        rectangle2.setLength(7.0);  
+        rectangle2.setWidth(3.0);   
 
-      // Print the area and perimeter of rectangle1 here
+        // Print details for rectangle1
+        System.out.println("Rectangle 1:");                 
+        System.out.println("Length: " + rectangle1.getLength());     
+        System.out.println("Width: " + rectangle1.getWidth());       
+        System.out.println("Perimeter: " + rectangle1.calculatePerimeter()); 
+        System.out.println("Area: " + rectangle1.calculateArea());          
 
-      // Set the length of rectangle2 to 7.0 here
+        System.out.println(); // Blank line to separate rectangles
 
-      // Set the width of rectangle2 to 3.0 here 
-
-      // Print the area and perimeter of rectangle2 here 
-   }
+        // Print details for rectangle2
+        System.out.println("Rectangle 2:");               
+        System.out.println("Length: " + rectangle2.getLength());     
+        System.out.println("Width: " + rectangle2.getWidth());       
+        System.out.println("Perimeter: " + rectangle2.calculatePerimeter());
+        System.out.println("Area: " + rectangle2.calculateArea());      git remote add origin https://github.com/cengage-csp-students-prod-3/9780357880876_pld-10e-java-e31fca6b-fde6-4f0f-b98c-028d7ee7d717.git      git add .
+              git commit -m "Initial commit"            git commit -m "Initial commit"
 }
