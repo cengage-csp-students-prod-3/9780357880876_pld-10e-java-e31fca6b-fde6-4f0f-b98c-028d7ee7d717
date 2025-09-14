@@ -11,7 +11,8 @@ public class Furniture
 		double profit;
 		double saleProfit;
 		
-		// Write your assignment statements here.			
+		// Write your assignment statements here.	
+				
 		profit = retailPrice - wholesalePrice;
 
 		salePrice = retailPrice * 0.75;
