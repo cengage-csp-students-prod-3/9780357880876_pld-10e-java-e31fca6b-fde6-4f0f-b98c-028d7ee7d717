@@ -7,6 +7,12 @@ public class NewAge
    public static void main(String args[])
    {
       // Declare and initialize your variables here.
+      int newAge; 
+
+      int currentAge = 36;
+
+      int currentYear = 2025;
+
 
 		
       newAge = currentAge + (2050 - currentYear);
