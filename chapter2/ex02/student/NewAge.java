@@ -15,11 +15,11 @@ public class NewAge
 
       int currentYear = 2025;
 
-
-		
-      newAge = currentAge + (2050 - currentYear);
+newAge = currentAge + (YEAR - currentYear);
 
       System.out.println("My Current Age is " + currentAge);
+
+      
       System.out.println("I will be " + newAge + " in 2050.");
 
       System.exit(0);
