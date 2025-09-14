@@ -1,36 +1,38 @@
-class Rectangle
-{
-	// Length of this rectangle
-	// Width of this rectangle
-	
-	private double length;
+public class Rectangle {
+    private double length;
     private double width;
 
-	// Write set methods here
-	
-    public void setLength(double length) {
-        this.length = length;
+    // Default constructor
+    public Rectangle() {
+        length = 0.0;
+        width = 0.0;
     }
-	public void setWidth(double width) {
-		this.width = width;
-	}
 
-	// Write get methods here
+    // ✅ SETTER for length
+    public void setLength(double len) {
+        length = len;
+    }
 
-	public double getWidth() {
+    // ✅ GETTER for length
+    public double getLength() {
+        return length;
+    }
+
+    // Optional: Set and get methods for width (if needed)
+    public void setWidth(double w) {
+        width = w;
+    }
+
+    public double getWidth() {
         return width;
-	}
-	public double getLength() {
-		return length;
-	}
+    }
 
-	// Write the calculatePerimeter() and 
-	// calculateArea() methods here	
-	
-	public double calculateArea() {
+    // Optional: Methods to calculate area and perimeter
+    public double calculateArea() {
         return length * width;
     }
-	public double calculatePerimeter() {
-		return 2 * (length + width);
-	
+
+    public double calculatePerimeter() {
+        return 2 * (length + width);
+    }
 }
