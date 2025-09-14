@@ -10,7 +10,6 @@ public class NewAge
       int newAge; 
 
       int currentAge = 36;
-
       int currentYear = 2025;
 
 
