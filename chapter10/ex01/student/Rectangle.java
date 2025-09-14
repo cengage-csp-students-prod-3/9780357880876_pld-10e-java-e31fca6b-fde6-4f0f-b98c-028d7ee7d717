@@ -3,6 +3,7 @@ public class Rectangle {
     private double width;
 
     // Default constructor
+	
     public Rectangle() {
         length = 0.0;
         width = 0.0;
