@@ -20,7 +20,7 @@ newAge = currentAge + (YEAR - currentYear);
       System.out.println("My Current Age is " + currentAge);
 
       
-      System.out.println("I will be " + newAge + " in 2050.");
+      SSystem.out.println("I will be " + newAge + " in " + YEAR + ".");
 
       System.exit(0);
    }
