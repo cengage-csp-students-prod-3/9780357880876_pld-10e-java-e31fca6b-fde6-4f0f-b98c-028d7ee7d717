@@ -1,14 +1,14 @@
-// This program uses the programmer-defined Rectangle class. 
+// This program uses the programmer-defined Rectangle class.
 
 public class MyRectangleClassProgram
 {
-   public static void main(String args[])
-   {
-      //  Create two Rectangle objects using the default constructor
+    public static void main(String args[])
+    {
+        // Create two Rectangle objects using the default constructor
         Rectangle rectangle1 = new Rectangle();
         Rectangle rectangle2 = new Rectangle();
 
-        //  Set values for rectangle1
+        // Set values for rectangle1
         rectangle1.setLength(10.0); 
         rectangle1.setWidth(5.0);   
 
@@ -30,6 +30,6 @@ public class MyRectangleClassProgram
         System.out.println("Length: " + rectangle2.getLength());     
         System.out.println("Width: " + rectangle2.getWidth());       
         System.out.println("Perimeter: " + rectangle2.calculatePerimeter());
-        System.out.println("Area: " + rectangle2.calculateArea());      git remote add origin https://github.com/cengage-csp-students-prod-3/9780357880876_pld-10e-java-e31fca6b-fde6-4f0f-b98c-028d7ee7d717.git      git add .
-              git commit -m "Initial commit"            git commit -m "Initial commit"
+        System.out.println("Area: " + rectangle2.calculateArea());      
+    }
 }
