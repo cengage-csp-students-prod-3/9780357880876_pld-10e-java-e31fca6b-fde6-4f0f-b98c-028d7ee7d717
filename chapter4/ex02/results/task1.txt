@@ -3,16 +3,16 @@ Status: PASSED!
 Check: 1
 Test: The program displays the largest and smallest values in the set: '-50, 53, 78' 
 Reason: None
-Timestamp: 2025-09-20 20:13:08.898040
+Timestamp: 2025-09-20 20:13:44.603405
 
 Status: PASSED!
 Check: 2
 Test: The program displays the largest and smallest values in the set: '-7, 12, -3' 
 Reason: None
-Timestamp: 2025-09-20 20:13:09.776565
+Timestamp: 2025-09-20 20:13:45.466264
 
 Status: PASSED!
 Check: 3
 Test: The program displays the largest and smallest values in the set: '17, -22, 8' 
 Reason: None
-Timestamp: 2025-09-20 20:13:10.588504
+Timestamp: 2025-09-20 20:13:46.291197
