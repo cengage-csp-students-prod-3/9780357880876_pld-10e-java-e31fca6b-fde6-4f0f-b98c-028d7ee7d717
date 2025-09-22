@@ -38,6 +38,7 @@ public class EmployeeBonus
             bonus = BONUS_1;
         else
         {
+			
             if (score <= 69)
                 bonus = BONUS_2;
             else
