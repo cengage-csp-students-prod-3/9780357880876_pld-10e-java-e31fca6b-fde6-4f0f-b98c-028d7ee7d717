@@ -1,24 +1,28 @@
 
 Status: FAILED!
 Check: 1
-Test: Acme
-Error : str - AssertionError
-Timestamp: 2025-09-29 17:59:49.385551
+Test: 
+Reason: 
+Error : str - There was an issue compiling the java files.
+Timestamp: 2025-09-29 18:02:09.924221
 
 Status: FAILED!
 Check: 2
-Test: Coloma
-Error : str - AssertionError
-Timestamp: 2025-09-29 17:59:51.092921
+Test: 
+Reason: 
+Error : str - There was an issue compiling the java files.
+Timestamp: 2025-09-29 18:02:09.924361
 
 Status: FAILED!
 Check: 3
-Test: Asheville
-Error : str - AssertionError
-Timestamp: 2025-09-29 17:59:52.734677
+Test: 
+Reason: 
+Error : str - There was an issue compiling the java files.
+Timestamp: 2025-09-29 18:02:09.924461
 
 Status: FAILED!
 Check: 4
-Test: New York
-Error : str - AssertionError
-Timestamp: 2025-09-29 17:59:54.421110
+Test: 
+Reason: 
+Error : str - There was an issue compiling the java files.
+Timestamp: 2025-09-29 18:02:09.924517
