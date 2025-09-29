@@ -35,9 +35,5 @@ public class MichiganCities
             JOptionPane.showMessageDialog(null, "Not a city in Michigan");
     } 
 }
-
-
-
-        
-        
+   
         
