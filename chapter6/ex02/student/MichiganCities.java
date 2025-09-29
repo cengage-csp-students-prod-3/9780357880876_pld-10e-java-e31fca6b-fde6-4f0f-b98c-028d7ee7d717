@@ -34,7 +34,7 @@ public class MichiganCities
         else
             JOptionPane.showMessageDialog(null, "Not a city in Michigan.");
     } 
-}
+
 
         
         
