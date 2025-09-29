@@ -24,16 +24,18 @@ public class MichiganCities
             if(inCity.equals(citiesInMichigan[i])) 
             {
                 foundIt = true;
-                break; // no need to keep searching
+                break; // stop searching if found
             }
         }
         
         // Task 2: Test to see if city was not found
         if(foundIt)
-            JOptionPane.showMessageDialog(null, "City found.");
+            JOptionPane.showMessageDialog(null, "City found");
         else
-            JOptionPane.showMessageDialog(null, "Not a city in Michigan.");
+            JOptionPane.showMessageDialog(null, "Not a city in Michigan");
     } 
+}
+
 
 
         
