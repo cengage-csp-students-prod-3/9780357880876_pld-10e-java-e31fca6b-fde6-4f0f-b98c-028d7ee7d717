@@ -18,15 +18,24 @@ public class MichiganCities
         inCity = JOptionPane.showInputDialog("Enter name of city: ");
             
         // Task 1: Write your loop here.
-        for (int i = 0; i < citiesInMichigan.length; i++) 
+        for(int i = 0; i < citiesInMichigan.length; i++)
         {
             // Task 2: Write your test statement here.
-            if (inCity.equals(citiesInMichigan[i])) 
+            if(inCity.equals(citiesInMichigan[i])) 
             {
                 foundIt = true;
                 break; // no need to keep searching
             }
         }
+        
+        // Task 2: Test to see if city was not found
+        if(foundIt)
+            JOptionPane.showMessageDialog(null, "City found.");
+        else
+            JOptionPane.showMessageDialog(null, "Not a city in Michigan.");
+    } 
+}
+
         
         
         // Task 2: Test to see if city was not found
