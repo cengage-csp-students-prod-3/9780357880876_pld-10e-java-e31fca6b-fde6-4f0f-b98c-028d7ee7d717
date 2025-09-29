@@ -35,5 +35,19 @@ public class MichiganCities
             JOptionPane.showMessageDialog(null, "Not a city in Michigan");
     } 
 }
+
+for(int i = 0; i < citiesInMichigan.length; i++)
+
+if(inCity.equals(citiesInMichigan[i])) 
+{
+    foundIt = true;
+    break;
+}
+...
+if(foundIt)
+    JOptionPane.showMessageDialog(null, "City found");
+else
+    JOptionPane.showMessageDialog(null, "Not a city in Michigan");
+
    
         
