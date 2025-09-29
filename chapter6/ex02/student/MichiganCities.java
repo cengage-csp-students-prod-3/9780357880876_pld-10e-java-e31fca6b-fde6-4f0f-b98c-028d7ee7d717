@@ -38,10 +38,4 @@ public class MichiganCities
 
         
         
-        // Task 2: Test to see if city was not found
-        if (foundIt)
-            JOptionPane.showMessageDialog(null, "City found.");
-        else
-            JOptionPane.showMessageDialog(null, "Not a city in Michigan.");
-    } 
-}
+        
