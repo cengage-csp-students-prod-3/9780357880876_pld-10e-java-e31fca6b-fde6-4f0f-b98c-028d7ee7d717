@@ -1,7 +1,6 @@
 
-Status: FAILED!
+Status: PASSED!
 Check: 1
 Test: Implement a loop to examine the list of cities.
-Reason: Unable to find '`while` loop.' in the program.
-Error : str - AssertionError
-Timestamp: 2025-10-02 17:22:39.285639
+Reason: '`while` loop.' was found in the program output.None
+Timestamp: 2025-10-02 17:24:47.948880
