@@ -20,6 +20,17 @@ public class JumpinJive
 
 		// Get user input.
 		addIn = JOptionPane.showInputDialog("Enter coffee add-in or XXX to quit: ");
-		// Write the rest of the program here.
+
+		// Task 1: Search the array for the name of the add-in
+		foundIt = false;  // Reset flag each time
+		for (int i = 0; i < NUM_ITEMS; i++)
+		{
+			if (addIn.equals(addIns[i]))  // If match found
+			{
+				foundIt = true;
+				// (Task 2 will go here — print name/price & update total)
+				break;  // Exit loop once found
+			}
+		}
 	} 
-} 
+}
