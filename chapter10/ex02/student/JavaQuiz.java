@@ -5,10 +5,13 @@ import java.awt.event.*;
 class JavaQuiz
 {
 	JPanel myPanel;
-	
+
 
 	JavaQuiz()
 	{
+		myPanel = new JPanel();
+		myPanel.setLayout(new FlowLayout());
+
 		// Create a JLabel here named labelQuestion with appropriate text
 
 		// Create a JLabel here named labelYes with appropriate text
