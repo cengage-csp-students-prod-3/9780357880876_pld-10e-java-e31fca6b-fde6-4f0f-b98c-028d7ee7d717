@@ -5,6 +5,7 @@ import java.awt.event.*;
 class JavaQuiz
 {
     JPanel myPanel;
+	
 
     JavaQuiz()
     {
