@@ -4,60 +4,54 @@ import java.awt.event.*;
 
 class JavaQuiz
 {
-	JPanel myPanel;
+    JPanel myPanel;
 
+    JavaQuiz()
+    {
+        // ✅ Task 2: Create the three JLabels with appropriate text
+        JLabel labelQuestion = new JLabel("Do you like GUI programming? Vote Yes or No.");
+        JLabel labelYes = new JLabel("Click here to vote \"Yes\"");
+        JLabel labelNo = new JLabel("Click here to vote \"No\"");
 
-	JavaQuiz()
-	{
-		myPanel = new JPanel();
-		myPanel.setLayout(new FlowLayout());
+        // ✅ Task 3: Create the two JButton components
+        final JButton buttonYes = new JButton("Yes");
+        final JButton buttonNo = new JButton("No");
 
-		// Create a JLabel here named labelQuestion with appropriate text
+        // ✅ Task 4: Add event handlers to change background color
+        buttonYes.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                // Set the JPanel background color to yellow
+                myPanel.setBackground(Color.YELLOW);
+            }
+        });
 
-		// Create a JLabel here named labelYes with appropriate text
-		
-		// Create a JLabel here named labelNo with appropriate text
-		
-		// Create a final JButton here named buttonYes with appropriate text
-		
-		buttonYes.addActionListener(new ActionListener(){
-			public void actionPerformed(ActionEvent e){
-				// Set the JPanel background color to yellow
+        buttonNo.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                // Set the JPanel background color to red
+                myPanel.setBackground(Color.RED);
+            }
+        });
 
-				
-			}
-		});
+        // ✅ Task 1: Create a JPanel named myPanel
+        myPanel = new JPanel();
+        myPanel.setLayout(new FlowLayout()); // optional layout
 
-		// Create a final JButton here named buttonNo with appropriate text
+        // Add components to JPanel
+        myPanel.add(labelQuestion);
+        myPanel.add(labelYes);
+        myPanel.add(buttonYes);
+        myPanel.add(labelNo);
+        myPanel.add(buttonNo);
+    }
 
-		buttonNo.addActionListener(new ActionListener(){
-			public void actionPerformed(ActionEvent e){
-				// Set the JPanel background color to red
+    public static void main(String args[])
+    {
+        JavaQuiz quiz = new JavaQuiz();
+        JFrame frame = new JFrame("Java Quiz");
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-			}
-		});
-		
-		// Create a JPanel named myPanel
-		
-
-		myPanel.add(labelQuestion);		
-
-		myPanel.add(labelYes);
-		myPanel.add(buttonYes);
-		
-		myPanel.add(labelNo);
-		myPanel.add(buttonNo);
-		
-	}
-
-	public static void main(String args[])
-	{
-		JavaQuiz quiz = new JavaQuiz();
-		JFrame frame = new JFrame("Java Quiz");
-		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		
-		frame.setContentPane(quiz.myPanel);
-		frame.pack();
-		frame.setVisible(true);
-	}
+        frame.setContentPane(quiz.myPanel);
+        frame.pack();
+        frame.setVisible(true);
+    }
 }
