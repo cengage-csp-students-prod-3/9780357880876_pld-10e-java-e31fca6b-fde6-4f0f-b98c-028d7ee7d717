@@ -5,11 +5,12 @@ import java.awt.event.*;
 class JavaQuiz
 {
 	JPanel myPanel;
+	
 
 	JavaQuiz()
 	{
 		// Create a JLabel here named labelQuestion with appropriate text
-	        JLabel labelQuestion = new JLabel("Do you like GUI programming? Vote Yes or No.");
+
 		// Create a JLabel here named labelYes with appropriate text
 		
 		// Create a JLabel here named labelNo with appropriate text
