@@ -5,7 +5,7 @@ import java.awt.event.*;
 class JavaQuiz
 {
     JPanel myPanel;
-	
+
 
     JavaQuiz()
     {
@@ -21,7 +21,8 @@ class JavaQuiz
         // ✅ Task 4: Add event handlers to change background color
         buttonYes.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                // Set the JPanel background color to yellow
+                
+				// Set the JPanel background color to yellow
                 myPanel.setBackground(Color.YELLOW);
             }
         });
