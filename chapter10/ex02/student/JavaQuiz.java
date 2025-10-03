@@ -24,6 +24,7 @@ class JavaQuiz
                 
 				// Set the JPanel background color to yellow
                 myPanel.setBackground(Color.YELLOW);
+				
             }
         });
 
