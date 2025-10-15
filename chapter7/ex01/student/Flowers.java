@@ -30,7 +30,3 @@ public class Flowers
 		br.close(); 	
 	} 
 }
-
-		br.close(); 	
-	} 
-} 
