@@ -10,9 +10,10 @@ public class Flowers
 	public static void main(String args[]) throws Exception
 	{
 		// Declare variables here
-		
+		String flowerName;
+		String lightType;
 		// Open input file.
-		
+			FileReader fr = new FileReader("flowers.dat");
 		// Create BufferedReader object.
 		
 	
