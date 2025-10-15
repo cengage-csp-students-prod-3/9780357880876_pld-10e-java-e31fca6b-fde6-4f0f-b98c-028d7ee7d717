@@ -83,4 +83,5 @@ public class SuperMarket
 		// Print final total for the last day
 		System.out.println(DAY_FOOTER + hoursTotal);
    } 	
+   
 }
