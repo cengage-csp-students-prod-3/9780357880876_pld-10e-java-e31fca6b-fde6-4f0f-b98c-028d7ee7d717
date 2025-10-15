@@ -16,11 +16,20 @@ public class Flowers
 			FileReader fr = new FileReader("flowers.dat");
 		// Create BufferedReader object.
 		
-	
+	BufferedReader br = new BufferedReader(fr);
 		// Write while loop that reads records from file.
-		
+		while ((flowerName = br.readLine()) != null)
+		{
       // Print flower name and the words sun or shade.
+			lightType = br.readLine();
 			
+			// Print flower name and the words sun or shade.
+			System.out.println(flowerName + " grows in " + lightType + ".");
+		}
+
+		br.close(); 	
+	} 
+}
 
 		br.close(); 	
 	} 
