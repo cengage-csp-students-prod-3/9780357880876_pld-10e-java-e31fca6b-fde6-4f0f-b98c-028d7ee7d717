@@ -38,16 +38,49 @@ public class SuperMarket
 		else
 		{
 			hoursWorkedString = JOptionPane.showInputDialog("Enter hours worked: ");
-			hoursWorked = Integer.parseInt(hoursWorkedString); 
+			hoursWorked = Double.parseDouble(hoursWorkedString); 
 			prevDay = dayOfWeek;
+			hoursTotal = hoursWorked;
+			System.out.println(prevDay + " " + hoursWorked);
 		}		
 		   
+		// Task 1: Implement control break loop
 		while(!done)
 		{	
-			// Implement control break logic here
-		        // Include work done in the dayChange() method
+			dayOfWeek = JOptionPane.showInputDialog("Enter day of week or done to quit: ");
+
+			if(dayOfWeek.compareTo(SENTINEL) == 0)
+				done = true;
+			else
+			{
+				hoursWorkedString = JOptionPane.showInputDialog("Enter hours worked: ");
+				hoursWorked = Double.parseDouble(hoursWorkedString);
+			}
+
+			// Check for control break (day change or end of data)
+			if(done || !dayOfWeek.equals(prevDay))
+			{
+				// Print the total for the previous day
+				System.out.println(DAY_FOOTER + hoursTotal);
+
+				// If not done, start new day section
+				if(!done)
+				{
+					prevDay = dayOfWeek;
+					hoursTotal = hoursWorked;
+					System.out.println();
+					System.out.println(prevDay + " " + hoursWorked);
+				}
+			}
+			else
+			{
+				// Same day — accumulate total
+				hoursTotal += hoursWorked;
+				System.out.println(dayOfWeek + " " + hoursWorked);
+			}
 		}
 	
+		// Print final total for the last day
 		System.out.println(DAY_FOOTER + hoursTotal);
    } 	
-} 
+}
