@@ -23,7 +23,6 @@ public class Flowers
       // Print flower name and the words sun or shade.
 			lightType = br.readLine();
 			
-			// Print flower name and the words sun or shade.
 			System.out.println(flowerName + " grows in " + lightType + ".");
 		}
 
