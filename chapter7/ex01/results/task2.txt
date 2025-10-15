@@ -1,0 +1,90 @@
+
+Status: PASSED!
+Check: 1
+Test: Write `while` loop to read input until EOF.
+Reason: '`while` loop' was found in the program output.None
+Timestamp: 2025-10-15 17:36:32.886830
+
+Status: PASSED!
+Check: 2
+Test: Print the name of each flower and where it can be grown.
+Reason: None
+Timestamp: 2025-10-15 17:36:34.248072
+
+Status: PASSED!
+Check: 2
+Test: Print the name of each flower and where it can be grown.
+Reason: None
+Timestamp: 2025-10-15 17:36:35.152520
+
+Status: PASSED!
+Check: 2
+Test: Print the name of each flower and where it can be grown.
+Reason: None
+Timestamp: 2025-10-15 17:36:35.873723
+
+Status: PASSED!
+Check: 2
+Test: Print the name of each flower and where it can be grown.
+Reason: None
+Timestamp: 2025-10-15 17:36:36.591888
+
+Status: PASSED!
+Check: 2
+Test: Print the name of each flower and where it can be grown.
+Reason: None
+Timestamp: 2025-10-15 17:36:37.296532
+
+Status: PASSED!
+Check: 2
+Test: Print the name of each flower and where it can be grown.
+Reason: None
+Timestamp: 2025-10-15 17:36:37.992599
+
+Status: PASSED!
+Check: 2
+Test: Print the name of each flower and where it can be grown.
+Reason: None
+Timestamp: 2025-10-15 17:36:38.644020
+
+Status: PASSED!
+Check: 2
+Test: Print the name of each flower and where it can be grown.
+Reason: None
+Timestamp: 2025-10-15 17:36:39.368965
+
+Status: PASSED!
+Check: 2
+Test: Print the name of each flower and where it can be grown.
+Reason: None
+Timestamp: 2025-10-15 17:36:39.998882
+
+Status: PASSED!
+Check: 2
+Test: Print the name of each flower and where it can be grown.
+Reason: None
+Timestamp: 2025-10-15 17:36:40.639970
+
+Status: PASSED!
+Check: 2
+Test: Print the name of each flower and where it can be grown.
+Reason: None
+Timestamp: 2025-10-15 17:36:41.302773
+
+Status: PASSED!
+Check: 2
+Test: Print the name of each flower and where it can be grown.
+Reason: None
+Timestamp: 2025-10-15 17:36:41.998424
+
+Status: PASSED!
+Check: 2
+Test: Print the name of each flower and where it can be grown.
+Reason: None
+Timestamp: 2025-10-15 17:36:42.654746
+
+Status: PASSED!
+Check: 3
+Test: flowers.dat values were not hard-coded into the program.
+Reason: None
+Timestamp: 2025-10-15 17:36:42.655077
