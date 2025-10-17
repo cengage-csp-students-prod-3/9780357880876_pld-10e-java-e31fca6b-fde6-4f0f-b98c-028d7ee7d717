@@ -1,8 +1,3 @@
-// Swap.java - This program determines the minimum and maximum of three values input by 
-// the user and performs necessary swaps.  
-// Input:  Three int values. 
-// Output:  The numbers in numerical order. 
-
 import javax.swing.*;
 
 public class Swap
@@ -30,11 +25,25 @@ public class Swap
 		}
 		
 		// Test to see if the first number is greater than the second number.
+		if(first > second) {
+			temp = first;
+			first = second;
+			second = temp;
+		}
 		
 		// Test to see if the second number is greater than the third number.
+		if(second > third) {
+			temp = second;
+			second = third;
+			third = temp;
+		}
 		
 		// Test to see if the first number is greater than the second number again.
-		
+		if(first > second) {
+			temp = first;
+			first = second;
+			second = temp;
+		}
 
 		// Print values in numerical order. 
 		System.out.println("Smallest: " + first);
