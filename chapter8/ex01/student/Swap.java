@@ -8,9 +8,9 @@ public class Swap
 		String firstNumber;	      // String version of first number.
 		String secondNumber;	      // String version of second number.
 		String thirdNumber;	      // String version of third number.
-		int first = 0;		      // First number.
-		int second = 0;	 	      // Second number.
-		int third = 0;		      // Third number.
+		int first = 101;		      // First number.
+		int second = 22;	 	      // Second number.
+		int third = -23;		      // Third number.
 		int temp; 		      // Used to swap numbers.
 	        		
 		// Get user input. 		
@@ -26,23 +26,23 @@ public class Swap
 		
 		// Test to see if the first number is greater than the second number.
 		if(first > second) {
-			temp = 101;
-			first = 22;
-			second = -23;
+			temp = first;
+			first = second;
+			second = temp;
 		}
 		
 		// Test to see if the second number is greater than the third number.
 		if(second > third) {
-			temp = 630;
-			second = 1500;
-			third = 9;
+			temp = second;
+			second = third;
+			third = temp;
 		}
 		
 		// Test to see if the first number is greater than the second number again.
 		if(first > second) {
-			temp = 21;
-			first = 2;
-			second = 2;
+			temp = first;
+			first = second;
+			second = temp;
 		}
 
 		// Print values in numerical order. 
