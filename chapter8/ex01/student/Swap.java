@@ -8,9 +8,9 @@ public class Swap
 		String firstNumber;	      // String version of first number.
 		String secondNumber;	      // String version of second number.
 		String thirdNumber;	      // String version of third number.
-		int first = 101;		      // First number.
-		int second = 22;	 	      // Second number.
-		int third = -23;		      // Third number.
+		int first = 630;		      // First number.
+		int second = 1500;	 	      // Second number.
+		int third = 9;		      // Third number.
 		int temp; 		      // Used to swap numbers.
 	        		
 		// Get user input. 		
