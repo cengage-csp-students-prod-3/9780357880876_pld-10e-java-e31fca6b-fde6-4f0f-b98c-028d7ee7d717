@@ -1,10 +1,14 @@
+import java.util.Scanner;
+
 public class Swap
 {
     public static void main(String[] args)
     {
-        int first = 630;
-        int second = 1500;
-        int third = 9;
+        Scanner input = new Scanner(System.in);
+
+        int first = input.nextInt();
+        int second = input.nextInt();
+        int third = input.nextInt();
         int temp;
 
         // Compare and swap
@@ -29,5 +33,8 @@ public class Swap
         System.out.println("Smallest: " + first);
         System.out.println("Next largest: " + second);
         System.out.println("Largest: " + third);
+
+        input.close();
     }
 }
+
