@@ -1,54 +1,43 @@
-import javax.swing.*;
+import java.util.Scanner;
 
 public class Swap
 {
-	public static void main(String args[]) throws Exception
-	{
-		// Declare variables.
-		String firstNumber;	      // String version of first number.
-		String secondNumber;	      // String version of second number.
-		String thirdNumber;	      // String version of third number.
-		int first = 630;		      // First number.
-		int second = 1500;	 	      // Second number.
-		int third = 9;		      // Third number.
-		int temp; 		      // Used to swap numbers.
-	        		
-		// Get user input. 		
-		if((firstNumber = JOptionPane.showInputDialog("Enter first number: ")) != null)
-		{
-			secondNumber = JOptionPane.showInputDialog("Enter second number: ");
-			thirdNumber = JOptionPane.showInputDialog("Enter third number: ");
-			// Convert Strings to int.
-			first = Integer.parseInt(firstNumber);
-			second = Integer.parseInt(secondNumber);
-			third = Integer.parseInt(thirdNumber);
-		}
-		
-		// Test to see if the first number is greater than the second number.
-		if(first > second) {
-			temp = first;
-			first = second;
-			second = temp;
-		}
-		
-		// Test to see if the second number is greater than the third number.
-		if(second > third) {
-			temp = second;
-			second = third;
-			third = temp;
-		}
-		
-		// Test to see if the first number is greater than the second number again.
-		if(first > second) {
-			temp = first;
-			first = second;
-			second = temp;
-		}
+    public static void main(String[] args)
+    {
+        Scanner input = new Scanner(System.in);
 
-		// Print values in numerical order. 
-		System.out.println("Smallest: " + first);
-		System.out.println("Next largest: " + second);
-		System.out.println("Largest: " + third); 
+        int first, second, third, temp;
 
-	} // End of main() method.
-} // End of Swap class.
+        System.out.print("Enter first number: ");
+        first = input.nextInt();
+
+        System.out.print("Enter second number: ");
+        second = input.nextInt();
+
+        System.out.print("Enter third number: ");
+        third = input.nextInt();
+
+        // Compare and swap
+        if (first > second) {
+            temp = first;
+            first = second;
+            second = temp;
+        }
+
+        if (second > third) {
+            temp = second;
+            second = third;
+            third = temp;
+        }
+
+        if (first > second) {
+            temp = first;
+            first = second;
+            second = temp;
+        }
+
+        System.out.println("Smallest: " + first);
+        System.out.println("Next largest: " + second);
+        System.out.println("Largest: " + third);
+    }
+}
