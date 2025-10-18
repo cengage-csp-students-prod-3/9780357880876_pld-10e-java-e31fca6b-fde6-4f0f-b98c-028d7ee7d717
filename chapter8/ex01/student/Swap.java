@@ -39,5 +39,7 @@ public class Swap
         System.out.println("Smallest: " + first);
         System.out.println("Next largest: " + second);
         System.out.println("Largest: " + third);
+
+        input.close();  // ✅ closes the Scanner to prevent resource leak
     }
 }
