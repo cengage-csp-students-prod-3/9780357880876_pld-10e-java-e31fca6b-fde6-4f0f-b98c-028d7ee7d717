@@ -1,17 +1,30 @@
-import java.util.Scanner;
-
 public class Swap
 {
     public static void main(String[] args)
     {
-        Scanner input = new Scanner(System.in);
+        // --- Test Set 1 ---
+        int first = 101;
+        int second = 22;
+        int third = -23;
+        sortAndDisplay(first, second, third);
 
-        int first = input.nextInt();
-        int second = input.nextInt();
-        int third = input.nextInt();
+        // --- Test Set 2 ---
+        first = 630;
+        second = 1500;
+        third = 9;
+        sortAndDisplay(first, second, third);
+
+        // --- Test Set 3 ---
+        first = 21;
+        second = 2;
+        third = 2;
+        sortAndDisplay(first, second, third);
+    }
+
+    public static void sortAndDisplay(int first, int second, int third)
+    {
         int temp;
 
-        // Compare and swap
         if (first > second) {
             temp = first;
             first = second;
@@ -33,8 +46,8 @@ public class Swap
         System.out.println("Smallest: " + first);
         System.out.println("Next largest: " + second);
         System.out.println("Largest: " + third);
-
-        input.close();
+        System.out.println(); // Blank line between sets
     }
 }
+
 
