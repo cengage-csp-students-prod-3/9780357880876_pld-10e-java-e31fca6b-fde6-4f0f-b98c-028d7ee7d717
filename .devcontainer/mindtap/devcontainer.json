@@ -1,6 +1,6 @@
 {
   "name": "MindTap",
-  "image": "mcr.microsoft.com/devcontainers/universal:3-noble",
+  "image": "mcr.microsoft.com/devcontainers/universal:4-noble",
   "customizations": {
     "vscode": {
       "extensions": [
@@ -20,12 +20,9 @@
         "java.sources.organizeImports.staticStarThreshold": 9999,
         "java.debug.settings.enableRunDebugCodeLens": false,
         "workbench.view.testing.visible": false,
-        "java.project.referencedLibraries": [
-          "**/*.java"
-        ],
+        "java.project.referencedLibraries": ["**/*.java"],
         "editor.formatOnSave": false,
         "editor.defaultFormatter": "redhat.java"
-        
       }
     }
   },
